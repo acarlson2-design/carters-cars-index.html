@@ -77,3 +77,10 @@ nav {
     margin: 0 auto;
     text-align: left;
 }
+
+.hero-section img {
+    max-width: 800px;
+    height: auto;
+    margin-top: 20px;
+    border:#ded21a 4px solid;
+}
