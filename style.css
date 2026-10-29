@@ -272,6 +272,7 @@ footer {
 }
 
 .footer p {
+    color: #0a340e;
     display:flex;
     justify-content:center;
     align-items:center;
