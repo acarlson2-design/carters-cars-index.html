@@ -177,6 +177,62 @@ nav {
     margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    font-family: courier, monospace;
+    gap: 20px;
+}
+
+
+.card img {
+    width: 300px;
+    height: auto;
+    display: block;
+
+}
+
+.card-content {
+    background-color: #ded21a;
+    padding: 20px;
     text-align: center;
 }
 
+.card-content h2 {
+    font-family: helvetica, sans-serif;
+    color: #0a340e;
+    font-weight:bolder;
+    font-size: 18px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.card-content p {
+    font-family: courier, monospace;
+    color: #0a340e;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.card-button {
+    background-color: #0a340e;
+    color: #ded21a;
+    border: none;
+    padding: 20px;
+    font-size: 14px;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    width: 210px;
+}
