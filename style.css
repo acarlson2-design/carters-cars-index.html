@@ -272,6 +272,9 @@ footer {
 }
 
 .footer p {
+    display:flex;
+    justify-content:center;
+    align-items:center;
     font-family: helvetica, sans-serif;
     font-size: 14px;
     margin: 0;
