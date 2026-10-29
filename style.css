@@ -271,7 +271,7 @@ footer {
    
 }
 
-.footer p {
+.footer .copyright {
     color: #0a340e;
     display:flex;
     justify-content:center;
@@ -283,3 +283,17 @@ footer {
     text-transform: uppercase;
     padding-bottom:5px;
 }   
+
+.footer .email {
+    color: #0a340e;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom:5px;
+    
+}
