@@ -1,8 +1,11 @@
 body {
     background-color: #0a340e; 
     padding-top: 20px;
-    padding-bottom: 20px;
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 h1 {
@@ -122,7 +125,7 @@ nav {
     background-color: #ded21a;
     padding: 20px;
     margin: 20px auto;
-    max-width: 100%;
+    width: 100%;
     height: 350px;
     text-align: center;
 }
@@ -236,3 +239,43 @@ nav {
     margin-bottom: 20px;
     width: 210px;
 }
+
+.locations {
+    color: #ded21a;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.locations button {
+    background-color: #ded21a;
+    color: #0a340e;
+    border: none;
+    padding: 20px;
+    font-size: 14px;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 210px;
+}
+
+footer {
+    background-color: #ded21a;
+    height: 60px;
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 0px;
+   
+}
+
+.footer p {
+    font-family: helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom:5px;
+}   
