@@ -5,6 +5,20 @@ body {
     width: 100%;
 }
 
+h1 {
+    text-transform: uppercase;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+
 p {
 
     max-width: 1200px;
@@ -24,7 +38,7 @@ p {
 
 .header h1 {
     font-size: 36px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: helvetica, sans-serif;
     font-weight: bold;
     margin: 0;
     color:#ded21a;
@@ -62,7 +76,7 @@ nav {
 }
 
 .hero-section h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: helvetica, sans-serif;
     font-size: 24px;
     margin: 0;
     padding-top: 20px;
@@ -100,5 +114,57 @@ nav {
     padding: 20px 20px;
     border: none;
     text-transform: uppercase;
+    width: 210px;
 
+}
+
+.call-container {
+    background-color: #ded21a;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 100%;
+    height: 350px;
+    text-align: center;
+}
+
+.call-container h1 {
+    font-family: helvetica, sans-serif;
+    color: #0a340e;
+    font-weight:bolder;
+    font-size: 24px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.call-container ul {
+    font-family: courier, monospace;
+    color: #0a340e;
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    list-style-type: none;
+}
+
+.call-container h2 {
+    color: #0a340e;
+}
+
+.call-button {
+    background-color: #0a340e;
+    color: #ded21a;
+    border: none;
+    padding: 20px;
+    font-size: 14px;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 210px;
 }
