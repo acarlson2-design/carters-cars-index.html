@@ -168,3 +168,15 @@ nav {
     margin-bottom: 20px;
     width: 210px;
 }
+
+.carters-picks h1 {
+    font-family: helvetica, sans-serif;
+    color: #ded21a;
+    font-weight:bolder;
+    font-size: 24px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
