@@ -3,8 +3,6 @@ body {
     padding-top: 20px;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
 
 }
 
@@ -124,10 +122,12 @@ nav {
 .call-container {
     background-color: #ded21a;
     padding: 20px;
-    margin: 20px auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
     width: 100%;
     height: 350px;
     text-align: center;
+
 }
 
 .call-container h1 {
@@ -135,9 +135,9 @@ nav {
     color: #0a340e;
     font-weight:bolder;
     font-size: 24px;
-    margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
 
 }
 
@@ -151,10 +151,13 @@ nav {
     margin: 0 auto;
     text-align: center;
     list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .call-container h2 {
     color: #0a340e;
+    text-align: center;
 }
 
 .call-button {
@@ -169,6 +172,8 @@ nav {
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 210px;
 }
 
